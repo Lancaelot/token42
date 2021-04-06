@@ -30,13 +30,15 @@
     "react-stickynode": "^2.1.1",
     "react-typewriter-hook": "^1.0.1",
     "react-water-wave": "^1.0.5",
+    "serve": "^11.3.2",
     "slick-carousel": "^1.8.1"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "deploy": "serve -s build"
   },
   "eslintConfig": {
     "extends": "react-app"
