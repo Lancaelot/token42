@@ -7,8 +7,6 @@ import Statistics from "./component/Portfolio/ListingStatistics";
 import Quotes from "./component/Testimonial/Testimonial";
 import Listing from "./component/Clientslogo";
 import Tokenomics from "./component/Blog/Blog";
-import Contact from "./component/Contact";
-import Skill from "./component/Skill/Skill";
 import Footer from "./component/Footer";
 import jhonData from "./component/jhonData";
 

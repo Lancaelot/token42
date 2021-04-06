@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import ItemGrid from "./ItemGrid";
 import Sectiontitle from "../Banner/Sectiontitle";
 import anime from "animejs/lib/anime.es.js";
 import CounterItem from "../Skill/CounterItem";
