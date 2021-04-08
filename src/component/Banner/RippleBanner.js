@@ -15,17 +15,13 @@ export const RBanner = ({ jhonData, bClass, textLeft, imag }) => {
           <div className="container">
             <div className={`banner_content ${textLeft}`}>
               <Reveal effect="fadeInUp">
-                <h5>HELLO</h5>
+                <h5>The answer to</h5>
               </Reveal>
               <Reveal effect="fadeInUp" duration={1500}>
-                <h2 className="wow fadeInLeft animated">
-                  I am {jhonData.name}
-                </h2>
+                <h2 className="wow fadeInLeft animated">Life the Universe</h2>
               </Reveal>
               <Reveal effect="fadeInUp" duration={2200}>
-                <h4 className="wow fadeInUp anoimated">
-                  Visual Designer & Front-end Developer
-                </h4>
+                <h4 className="wow fadeInUp anoimated">and everything....</h4>
               </Reveal>
               <ul className="list_style social_icon">
                 {jhonData.socialLinks &&
